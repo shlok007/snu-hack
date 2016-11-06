@@ -109,7 +109,7 @@ body{
         <div class="col-sm-6">
           <div class="well">
             <h4>Date of Birth</h4>
-              <p><strong>30-04-1997</strong></p>
+              <p><strong><%= @student.dob %></strong></p>
           </div>
         </div>
         <div class="col-sm-6">
@@ -173,7 +173,7 @@ body{
         <%else%>
                  <%= form_tag({controller: "student", action: "attach_addhar"}) do%>
           <%= hidden_field_tag(:id, @student.id) %>
-          <%= text_field_tag 'number', nil,class: 'form-control', placeholder: "Addhar Card Number"  %>
+          <%= text_field_tag 'number', nil,class: 'form-control', placeholder: "Aadhar Card Number"  %>
           <%= button_tag "Link your Aadhar Card", class: "btn btn-primary btn-block"%>
           <% end %>
         <br>
