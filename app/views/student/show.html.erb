@@ -157,7 +157,11 @@ body{
 </div>  
 </div>
         <div class="photo col-sm-4">
+        <% if @student.id%2==0%>
         <%= image_tag "DSC_0462.jpg"%>
+        <% else %>
+        <%= image_tag "dp.jpg"%>
+        <%end%>
         <br>
         <br>
         <br>
