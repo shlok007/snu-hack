@@ -39,6 +39,9 @@
   position:relative;
   top:1px;
 }
+/*.pad{
+  padding-left: 10px;
+}*/
 .center{
   text-align: center;
 }
