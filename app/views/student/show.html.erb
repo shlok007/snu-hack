@@ -1,0 +1,5 @@
+<%= link_to "Get addhar", get_addhar_path %>
+<%= form_tag(controller: "student", action: "attach_addhar") do %>
+<%= text_field_tag(:number) %>
+<%= submit_tag %>
+<%= end %>
