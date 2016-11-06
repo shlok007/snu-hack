@@ -3,6 +3,7 @@ class StudentController < ApplicationController
 		if params[:dob]
 		@student = Student.where(id: params[:id], dob: params[:dob]).last
 		if @student
+			redirect_to "/student/" + @student.id.to_s
 		else
 			redirect_to :back
 		end
