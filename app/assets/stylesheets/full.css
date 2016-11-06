@@ -1,0 +1,44 @@
+/*
+ * Start Bootstrap - Full (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+body {
+    margin-top: 50px; /* Required margin for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+
+/* Header Image Background - Change the URL below to your image path (example: ../images/background.jpg) */
+
+.full {
+    background: url('back8.jpg') no-repeat center center fixed;!important
+    -webkit-background-size: cover;
+    z-index: 50px;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+div.first {
+    background: rgba(0 , 0, 0, 0.6 );
+    font-size: 120%;
+    border-radius: 20px;
+    padding: 50px;
+
+  font-weight: italic;
+  color: #000000;
+}
+h1 {
+    font-family: 'Coiny', cursive;
+    font-size: 120px;
+    color:#F2FB13;
+}
+button {
+    font-size: 80px;
+}
+.btn {font-size: 30px;}
+
+.modal-dialog {
+  height: 80% !important;
+  padding-top:10%;
+}
+
